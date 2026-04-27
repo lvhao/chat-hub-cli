@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/lvhao/chathub/internal/config"
-	"github.com/lvhao/chathub/internal/output"
-	"github.com/lvhao/chathub/internal/platform/lark"
+	"github.com/lvhao/chat-hub-cli/internal/config"
+	"github.com/lvhao/chat-hub-cli/internal/output"
+	"github.com/lvhao/chat-hub-cli/internal/platform/lark"
 	"github.com/spf13/cobra"
 )
 

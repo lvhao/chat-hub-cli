@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lvhao/chathub/internal/platform"
+	"github.com/lvhao/chat-hub-cli/internal/platform"
 )
 
 type Client struct {

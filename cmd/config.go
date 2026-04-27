@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lvhao/chathub/internal/config"
-	"github.com/lvhao/chathub/internal/output"
+	"github.com/lvhao/chat-hub-cli/internal/config"
+	"github.com/lvhao/chat-hub-cli/internal/output"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-module github.com/lvhao/chathub
+module github.com/lvhao/chat-hub-cli
 
 go 1.20
 

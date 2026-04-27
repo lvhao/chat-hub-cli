@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lvhao/chathub/cmd"
+	"github.com/lvhao/chat-hub-cli/cmd"
 )
 
 func main() {
