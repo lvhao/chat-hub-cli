@@ -13,8 +13,17 @@ var configCmd = &cobra.Command{Use: "config", Short: "Manage chathub configurati
 
 var configSetCmd = &cobra.Command{
 	Use:   "set <key> <value>",
-	Short: "Set a config value (e.g. lark.app_id)",
-	Args:  cobra.ExactArgs(2),
+	Short: "Set a config value",
+	Long: `Set a config value. Available keys:
+
+  lark.app_id          Feishu App ID
+  lark.app_secret      Feishu App Secret
+  wecom.corp_id        WeCom Corp ID
+  wecom.secret         WeCom Secret
+  dingtalk.app_key     DingTalk App Key
+  dingtalk.app_secret  DingTalk App Secret
+  wx.token             WeChat Access Token`,
+	Args: cobra.ExactArgs(2),
 	RunE: func(cmd *cobra.Command, args []string) error {
 		key, val := args[0], args[1]
 		cfg, err := config.Load()
